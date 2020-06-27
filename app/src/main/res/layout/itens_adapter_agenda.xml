@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/imgRelogio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:contentDescription="@string/action_settings"
+        android:padding="16dp"
+        android:src="@drawable/ic_alarm_black_24dp" />
+
+    <TextView
+        android:id="@+id/tvHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Line 1"
+        android:textSize="34dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imgRelogio" />
+    <CheckBox
+        android:id="@+id/checkBoxMiniDom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_mini_dom"
+        android:layout_marginStart="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tvHora" />
+    <CheckBox
+        android:id="@+id/checkBoxMiniSeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_mini_seg"
+
+        android:layout_toEndOf="@+id/checkBoxMiniDom" />
+    <CheckBox
+        android:id="@+id/checkBoxMiniTer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_mini_ter"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/checkBoxMiniSeg" />
+    <CheckBox
+        android:id="@+id/checkBoxMiniQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_mini_qua"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/checkBoxMiniTer" />
+    <CheckBox
+        android:id="@+id/checkBoxMiniQui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_mini_qui"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/checkBoxMiniQua" />
+    <CheckBox
+        android:id="@+id/checkBoxMiniSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_mini_sex"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/checkBoxMiniQui" />
+    <CheckBox
+        android:id="@+id/checkBoxMiniSab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_mini_sab"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/checkBoxMiniSex" />
+    <CheckBox
+        android:id="@+id/checkBoxLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_lamp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/checkBoxMiniSab" />
+
+    <Spinner
+        android:id="@+id/spinnerAcaoAdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHora"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imgRelogio" />
+
+
+    <!--android:layout_toStartOf="@+id/main_line_delete"-->
+
+</RelativeLayout>

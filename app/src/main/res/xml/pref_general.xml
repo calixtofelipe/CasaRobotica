@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="geral_switch"
+        android:summary="@string/titulo_acao_geral"
+        android:title="@string/descricao_acao_geral" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="ctrl_rele01"
+        android:summary="@string/titulo_rele01"
+        android:title="@string/descricao_acao_rele01" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="ctrl_rele02"
+        android:summary="@string/titulo_rele02"
+        android:title="@string/descricao_acao_rele02" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="ctrl_rele03"
+        android:summary="@string/titulo_rele03"
+        android:title="@string/descricao_acao_rele03" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="ctrl_rele04"
+        android:summary="@string/titulo_rele04"
+        android:title="@string/descricao_acao_rele04" />
+    <SwitchPreference android:visibility="gone"
+        android:defaultValue="true"
+        android:key="ctrl_rele05"
+        android:summary="@string/titulo_rele05"
+        android:title="@string/descricao_acao_rele05" />
+    <SwitchPreference android:visibility="gone"
+        android:defaultValue="true"
+        android:key="ctrl_rele06"
+        android:summary="@string/titulo_rele06"
+        android:title="@string/descricao_acao_rele06" />
+    <SwitchPreference android:visibility="gone"
+        android:defaultValue="true"
+        android:key="ctrl_rele07"
+        android:summary="@string/titulo_rele07"
+        android:title="@string/descricao_acao_rele07" />
+    <SwitchPreference android:visibility="gone"
+        android:defaultValue="true"
+        android:key="ctrl_rele08"
+        android:summary="@string/titulo_rele08"
+        android:title="@string/descricao_acao_rele08" />
+
+
+</PreferenceScreen>

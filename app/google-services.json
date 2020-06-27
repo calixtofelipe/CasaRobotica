@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "25004065109",
+    "firebase_url": "https://casadroid-69c94.firebaseio.com",
+    "project_id": "casadroid-69c94",
+    "storage_bucket": "casadroid-69c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25004065109:android:4eb4347671290400",
+        "android_client_info": {
+          "package_name": "com.savecontroladoria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25004065109-81d6ka7nm2l4671tchsfho17it5iq66o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzA16cpXzhhwnNEvCLHOMWmeyLn2jz6lw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
